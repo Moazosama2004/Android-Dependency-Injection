@@ -1,4 +1,4 @@
-package com.example.products_app.all
+package com.example.products_app.all.manager
 
 import android.util.Log
 import androidx.lifecycle.LiveData

@@ -1,4 +1,4 @@
-package com.example.products_app.fav
+package com.example.products_app.fav.manager
 
 import android.util.Log
 import androidx.lifecycle.LiveData

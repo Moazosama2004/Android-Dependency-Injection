@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.products_app.ProductRow
 import com.example.products_app.R
+import com.example.products_app.fav.manager.FavProductsViewModel
 
 @Composable
 fun FavProductsScreen( viewModel: FavProductsViewModel) {
