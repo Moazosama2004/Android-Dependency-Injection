@@ -1,9 +1,10 @@
-package com.example.products_app.data.local
+package com.example.products_app.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.products_app.data.local.ProductsDao
 import com.example.products_app.data.model.Product
 
 @Database(entities = [Product::class], version = 1)
