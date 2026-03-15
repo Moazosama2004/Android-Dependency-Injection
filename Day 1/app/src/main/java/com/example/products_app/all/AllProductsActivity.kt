@@ -12,7 +12,6 @@ import com.example.products_app.all.manager.AllProductsViewModel
 import com.example.products_app.data.db.ProductsDataBase
 import com.example.products_app.data.local.ProductsLocalDataSource
 import com.example.products_app.data.remote.ProductsRemoteDataSourceImpl
-import com.example.products_app.data.remote.RetrofitHelper
 import com.example.products_app.fav.manager.FavProductFactory
 import com.example.products_app.fav.manager.FavProductsViewModel
 
