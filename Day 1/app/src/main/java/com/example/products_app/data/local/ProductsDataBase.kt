@@ -10,17 +10,4 @@ import com.example.products_app.data.model.Product
 abstract class ProductsDataBase : RoomDatabase(){
 
     abstract fun getProductsDao(): ProductsDao
-
-    companion object{
-        @Volatile
-        private var instance: ProductsDataBase? = null
-        fun getInstance(context: Context): ProductsDataBase {
-            return instance ?: synchronized(this){
-                val INSTANCE = Room.databaseBuilder(context, ProductsDataBase::class.java, "roomdb").build()
-                instance = INSTANCE
-                INSTANCE
-            }
-        }
-    }
-
 }
